@@ -22,7 +22,7 @@ class App extends React.Component {
               header={list.header}
               cards={list.cardIds.map(id => store.allCards[id])}
             />
-          ))}
+          ))} 
         </div>
       </main>
     )
